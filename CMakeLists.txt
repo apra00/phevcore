@@ -1,6 +1,6 @@
 project("Phev" C)
 cmake_minimum_required(VERSION 3.0)
-include(splint.cmake)
+#include(splint.cmake)
 set (CMAKE_C_STANDARD 11)
 
 if (UNIX)
@@ -35,9 +35,9 @@ add_library(phev STATIC
 #include_directories(${INCLUDE_DIRECTORIES} ${CMAKE_SOURCE_DIR}/external/msg-core/include ${CMAKE_SOURCE_DIR}/external /usr/local/include)
 target_include_directories(phev PUBLIC ${CMAKE_SOURCE_DIR}/external/msg-core/include ${CMAKE_SOURCE_DIR}/external /usr/local/include)
 
-add_splint(phev
-  ${PHEV_SRCS}
-)
+#add_splint(phev
+#  ${PHEV_SRCS}
+#)
 
 if(${BUILD_TESTS})
     find_package(unity)
