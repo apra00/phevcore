@@ -21,7 +21,7 @@ https://github.com/phev-remote/phevctl
 #### Messaging core library
 
 ```
-git clone https://github.com/papawattu/msg-core
+git clone https://github.com/apra00/msg-core
 cd msg-core
 mkdir -p build
 cd build
@@ -31,7 +31,7 @@ sudo make install
 ```
 #### cJSON
 ```
-git clone https://github.com/DaveGamble/cJSON
+git clone https://github.com/apra00/cJSON
 cd cJSON
 mkdir -p build
 cd build
@@ -41,7 +41,7 @@ sudo make install
 ```
 ### Build instructions
 ```
-git clone https://github.com/phev-remote/phevcore
+git clone https://github.com/apra00/phevcore
 cd phevcore
 mkdir -p build
 cd build
